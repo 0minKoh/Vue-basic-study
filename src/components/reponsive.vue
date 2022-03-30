@@ -31,10 +31,10 @@ export default {
     function changeMessage() {
       message.value = "Good?!"
     }
-    console.log(count)
+    console.log(count.value)
 
     onMounted(() => {
-      console.log(this.message)       
+      console.log(message.value)       
     })
 
     return {
